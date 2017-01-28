@@ -1,5 +1,8 @@
 # tetrachords
 
+
+include("include/tetrachords")
+
 header {
   module = idbyname
   random_transpose = yes
@@ -11,29 +14,6 @@ header {
 }
 
 tempo = 240/4
-
-
-
-tetrach_phr_maj_n = _("Phrygian-Major")
-tetrach_phr_maj_ca = " c' des' e' f' "
-tetrach_phr_maj_cd = " f' e' des' c' "
-tetrach_phr_maj_c = tetrach_phr_maj_ca + tetrach_phr_maj_cd
-
-tetrach_lyd_min_n = _("Lydian-Minor")
-tetrach_lyd_min_ca = " c' d' es' fis' "
-tetrach_lyd_min_cd = " fis' es' d' c' "
-tetrach_lyd_min_c = tetrach_lyd_min_ca + tetrach_lyd_min_cd
-
-tetrach_phr_lyd_maj_n = _("Phrygian-Lydian-Major")
-tetrach_phr_lyd_maj_ca = " c' des' e' fis' "
-tetrach_phr_lyd_maj_cd = " fis' e' des' c' "
-tetrach_phr_lyd_maj_c = tetrach_phr_lyd_maj_ca + tetrach_phr_lyd_maj_cd
-
-tetrach_phr_lyd_min_n = _("Phrygian-Lydian-Minor")
-tetrach_phr_lyd_min_ca = " c' des' es' fis' "
-tetrach_phr_lyd_min_cd = " fis' es' des' c' "
-tetrach_phr_lyd_min_c = tetrach_phr_lyd_min_ca + tetrach_phr_lyd_min_cd
-
 
 
 question { name = tetrach_phr_maj_n  voice(tetrach_phr_maj_c) }
