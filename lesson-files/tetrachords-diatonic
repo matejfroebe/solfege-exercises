@@ -1,0 +1,42 @@
+# tetrachords
+
+header {
+  module = idbyname
+  random_transpose = yes
+  title = _("Diatonic tetrachords")
+  have_repeat_slowly_button = yes
+  have_music_displayer = yes
+  fillnum = 4
+  filldir = horiz
+}
+
+tempo = 240/4
+
+
+
+tetrach_maj_n = _("Major")
+tetrach_maj_ca = " c' d' e' f' "
+tetrach_maj_cd = " f' e' d' c' "
+tetrach_maj_c = tetrach_maj_ca + tetrach_maj_cd
+
+tetrach_min_n = _("Minor")
+tetrach_min_ca = " c' d' es' f' "
+tetrach_min_cd = " f' es' d' c' "
+tetrach_min_c = tetrach_min_ca + tetrach_min_cd
+
+tetrach_phr_n = _("Phrygian")
+tetrach_phr_ca = " c' des' es' f' "
+tetrach_phr_cd = " f' es' des' c' "
+tetrach_phr_c = tetrach_phr_ca + tetrach_phr_cd
+
+tetrach_lyd_n = _("Lydian")
+tetrach_lyd_ca = " c' d' e' fis' "
+tetrach_lyd_cd = " fis' e' d' c' "
+tetrach_lyd_c = tetrach_lyd_ca + tetrach_lyd_cd
+
+
+
+question { name = tetrach_maj_n  voice(tetrach_maj_c) }
+question { name = tetrach_min_n  voice(tetrach_min_c) }
+question { name = tetrach_phr_n  voice(tetrach_phr_c) }
+question { name = tetrach_lyd_n  voice(tetrach_lyd_c) }
