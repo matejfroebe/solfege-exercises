@@ -1,0 +1,10 @@
+# GNU Solfege
+# Copyright (C) 2006, 2011 Tom Cato Amundsen
+
+header {
+    module=rhythm
+    rhythm_elements=22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34
+    title = _("Ternary rhythms")
+    bpm=80
+    count_in_notelen="4."
+}

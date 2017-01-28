@@ -1,0 +1,10 @@
+# ha
+
+header {
+    module=melodicinterval
+    ask_for_intervals_0=1, 2, 3, 4, 5, 7
+    title = _("Seconds, thirds, 4th, 5th")
+    theory = "theory-intervals"
+    test = "3x"
+    test_requirement = "90%"
+}
