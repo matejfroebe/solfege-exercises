@@ -1,0 +1,25 @@
+# tetrachords
+
+include("include/tetrachords")
+
+header {
+  module = idbyname
+  random_transpose = yes
+  title = _("Diatonic and exotic tetrachords")
+  have_repeat_slowly_button = yes
+  have_music_displayer = yes
+  fillnum = 4
+  filldir = horiz
+}
+
+tempo = 240/4
+
+
+question { name = tetrach_maj_n  voice(tetrach_maj_c) }
+question { name = tetrach_min_n  voice(tetrach_min_c) }
+question { name = tetrach_phr_n  voice(tetrach_phr_c) }
+question { name = tetrach_lyd_n  voice(tetrach_lyd_c) }
+question { name = tetrach_phr_maj_n  voice(tetrach_phr_maj_c) }
+question { name = tetrach_lyd_min_n  voice(tetrach_lyd_min_c) }
+question { name = tetrach_phr_lyd_maj_n  voice(tetrach_phr_lyd_maj_c) }
+question { name = tetrach_phr_lyd_min_n  voice(tetrach_phr_lyd_min_c) }
